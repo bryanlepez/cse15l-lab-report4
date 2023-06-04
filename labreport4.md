@@ -64,7 +64,7 @@ After we commit the changes that we made and a message for our future selves, we
 
 Now look at the repository within our GitHub account. It now reflects the changes that we made. All from the command line!!!
 
-![Image](
+![Image](githubchange.png)
 
 
 ---
