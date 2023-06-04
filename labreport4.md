@@ -5,7 +5,7 @@ report note that we are doing steps 4-9 from the lab tasks, but I will be number
 ## Step 1: Logging into ieng6
 To log into ieng6 the fastest possible way is to simply type in the following:
 
-![Image]()
+![Image](loginEng6.png)
 
 This is the fastest way possible. As you can see when we login to ieng6, it no longer prompts us to put in our password which makes logging in even 
 faster and easier. We were able to do this by following the steps in the lab document.
@@ -15,7 +15,7 @@ This was another easy step in the process. All we had to to do was go to the "la
 this I clicked the the green "code" box towards the top right and copied the link. After copying the link from the github repository I went
 into the terminal and typed in the following command: ```git clone git@github.com:bryanlepez/lab7.git```. This cloned the repository into our ieng6 machine. You can see how this looks down below:
 
-![Image]()
+![Image](gitcloning.png)
 
 If you don't know already, you copy and paste with ```command c``` on mac and ```control c``` on windows.
 
@@ -24,7 +24,7 @@ At first the tests are going to fail because there is a bug in our program(we wi
 ```javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java``` and ```java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests```.
 With this script we know that we can run the tests really fast! All we have to do is do the command ```bash test.sh``` which will automatically run the tests on our program. You can see everything I did and the results of running the tests down below:
 
-![Image]()
+![Image](runTestFail.png)
 
 As we can see the tests FAILED!. Now let's fix what is causing these failures!
 
@@ -38,11 +38,14 @@ Now we have to fix the code in order to fix the failing test. How will we do thi
 4. After we fixed our bug we know have to save and exit! I did this by doing the following key presses ```<:><w><q>```. Which gives us ```:wq```. In this case the ```:``` let's a type a command, the ```w``` saves the changes we made and the ```q``` exits vim. This will then take us out of the vim screen and take us back to our terminal!
 
 These were the direct key presses and steps I took to fix the bug in the code within ```ListExamples.java```. 
+You can see down below what the code looks like:
+
+![Image](fixerror.png)
 
 ## Step 5: Running the Tests to Show Success After Fixing Code
 Now we have fixed the bug in our code and have to show that what we did actually worked. In order to check this we to run the tests again. Like we did earlier you might be inclined to type the ```bash test.sh``` command again. However, we want to be as fast as possible. Since we recently used the ```bash test.sh``` command earlier right before we did ```vim ListExamples.java``` we can simply access it in our bash history. Since we used the ```bash test.sh``` command within the last two commands that we typed in the terminal we can simply access it by doing the following key presses ```<up><up><enter>```. The two ```<up>``` key presses will put the ```bash test.sh``` command directly into our command line instead of having to type it all out again. Then the ```<enter>``` key press will run the tests. We can see this below.
 
-![Image]()
+![Image](runTestSuccess)
 
 YAY! Our tests were successful! We are certified computer scientists!
 
@@ -53,11 +56,15 @@ The first thing that I need to do is commit our changes to the local repository.
 
 Next, I had to actually commit the changes to our file by doing ```git commit -m "fixed bug in ListExamples"```. This command let's us commit the changes to the new versions of the files that we added previously. This will not only commit the changes, but also allows us to write a message that will go along with the commit. In this case since I changed the ```ListExamples.java``` file I put "fixed bug in ListExmples" so I know what changes I made. You can see this below:
 
-![Image]()
+![Image](gitcommit.png)
 
 After we commit the changes that we made and a message for our future selves, we can now push our changes to our actual GitHub repository. In order to do this we have to run the command ```git push```. As you can see below the ```git push``` command pushes our changes to the repository within our Github account and we also run the command ```git log``` to check the changes made. As you can see below our file within the GitHub repository will contain the edited code along with the message that we typed earlier.
 
-![Image]()
+![Image](gitpush.png)
+
+Now look at the repository within our GitHub account. It now reflects the changes that we made. All from the command line!!!
+
+![Image](
 
 
 ---
