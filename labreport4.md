@@ -17,7 +17,7 @@ into the terminal and typed in the following command: ```git clone git@github.co
 
 ![Image](gitcloning.png)
 
-If you don't know already, you copy with ```command c``` on mac and ```control c``` on windows and paste with ```command p``` and ```control c``` respectively.
+If you don't know already, you copy with ```command c``` on mac and ```control c``` on windows and paste with ```command p``` and ```control p``` respectively.
 
 ## Step 3: Running the Tests to Show the Failure
 At first the tests are going to fail because there is a bug in our program(we will see this bug later on). In order to show that the tests failed I first changed my directory to the ```lab7``` directory by doing the command ```cd lab7``` in the terminal. After this I did the ```ls``` command which showed me the contents of the ```lab7``` directory. After running this command we can see that we have a file called ```test.sh``` which contains the commands that we need to run the tests. These commands are:
