@@ -26,7 +26,7 @@ With this script we know that we can run the tests really fast! All we have to d
 
 ![Image](runTestFail.png)
 
-As we can see the tests FAILED!. Now let's fix what is causing these failures!
+As we can see the tests FAILED! Now let's fix what is causing these failures!
 
 ## Step 4: Editing Code to Fix the Failing Test
 
