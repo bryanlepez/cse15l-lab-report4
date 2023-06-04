@@ -46,7 +46,22 @@ Now we have fixed the bug in our code and have to show that what we did actually
 
 YAY! Our tests were successful! We are certified computer scientists!
 
-## Step 6
+## Step 6: Commit and Pushing to Our GitHub Account
+Now that we have edited our code to make the test successful we have to make sure that we make these changes appear on our repository within GitHub. 
+
+The first thing that I need to do is commit our changes to the local repository. In order to do this I had to add the new version of ```ListExamples.java``` to our local repository by doing the following command in the terminal ```git add ListExamples.java``` this will allow us to now commit the changes to the ```ListExamples.java``` file within our local repostiory.
+
+Next, I had to actually commit the changes to our file by doing ```git commit -m "fixed bug in ListExamples"```. This command let's us commit the changes to the new versions of the files that we added previously. This will not only commit the changes, but also allows us to write a message that will go along with the commit. In this case since I changed the ```ListExamples.java``` file I put "fixed bug in ListExmples" so I know what changes I made. You can see this below:
+
+![Image]()
+
+After we commit the changes that we made and a message for our future selves, we can now push our changes to our actual GitHub repository. In order to do this we have to run the command ```git push```. As you can see below the ```git push``` command pushes our changes to the repository within our Github account and we also run the command ```git log``` to check the changes made. As you can see below our file within the GitHub repository will contain the edited code along with the message that we typed earlier.
+
+![Image]()
+
+
+---
+Well that's the end of my lab report. Hopefully if you follow these steps exactly you will get the same results. I was able to do it in less than six minutes so let's see if you can beat me!
 
 
 
