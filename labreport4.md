@@ -45,7 +45,7 @@ You can see down below what the code looks like:
 ## Step 5: Running the Tests to Show Success After Fixing Code
 Now we have fixed the bug in our code and have to show that what we did actually worked. In order to check this we to run the tests again. Like we did earlier you might be inclined to type the ```bash test.sh``` command again. However, we want to be as fast as possible. Since we recently used the ```bash test.sh``` command earlier right before we did ```vim ListExamples.java``` we can simply access it in our bash history. Since we used the ```bash test.sh``` command within the last two commands that we typed in the terminal we can simply access it by doing the following key presses ```<up><up><enter>```. The two ```<up>``` key presses will put the ```bash test.sh``` command directly into our command line instead of having to type it all out again. Then the ```<enter>``` key press will run the tests. We can see this below.
 
-![Image](runTestSuccess)
+![Image](runTestSuccess.png)
 
 YAY! Our tests were successful! We are certified computer scientists!
 
